@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Roboto', sans-serif;
+         
+}
+body {
+    background-color: rgb(233, 231, 231);
+}
+div.body-content{
+    /** Essa margem vai evitar que o conteudo fique por baixo do rodapé **/
+    padding-bottom: 40px;
+}
+footer.footer {
+    background-color: #e9ecef;
+    border-top: 1px solid #e9ecef;    
+    bottom: 0;
+    left: 0;
+    height: 75px;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+} 
+.image {    
+    height: 635px;
+}
+.login {   
+    height: 635px;   
+}
+.login-auth {
+    margin-top: 130px;
+    margin-left: 0;
+    margin-right: 30px;
+}
